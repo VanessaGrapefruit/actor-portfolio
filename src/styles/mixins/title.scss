@@ -1,0 +1,13 @@
+@import 'mixins/text';
+
+@mixin title($name-color: #FFFFFF, $title-color: #777) {
+    text-align: center;
+
+    .name {
+        @include text-title($name-color);
+    }
+
+    .title {
+        @include text-subtitle($title-color);
+    }
+}

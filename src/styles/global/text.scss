@@ -3,3 +3,11 @@
 .text {
 	@include text();
 }
+
+.text-title {
+	@include text-title(#101010);
+}
+
+.text-subtitle {
+	@include text-subtitle(#777);
+}
